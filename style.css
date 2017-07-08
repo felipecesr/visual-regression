@@ -63,7 +63,6 @@ body {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: 700;
 }
 
 .button.-primary {
@@ -72,14 +71,17 @@ body {
   background-color: #0074c8;
 }
 
-/*.login-buttons {
+/*a {
+  font-weight: 700;
+}
+
+.login-buttons {
   display: table;
   width: 100%;
 }
 
 .button {
   float: left;
-  font-weight: 400;
 }
 
 .button + .button {
