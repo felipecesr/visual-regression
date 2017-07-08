@@ -1,0 +1,87 @@
+*,
+:after,
+:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: SegoeUI, Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+  padding: 15px;
+  width: 270px;
+  background-color: #fff;
+}
+
+.wrapper-header {
+  margin-bottom: 20px;
+  color: #242424;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.login input {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #d3d3d3;
+  border-radius: 3px;
+}
+
+.forgot {
+  display: block;
+  margin-bottom: 20px;
+  color: #bababa;
+  font-size: .8em;
+  text-decoration: none;
+}
+
+.forgot:hover {
+  text-decoration: underline;
+}
+
+.login-buttons .button {
+  width: 49%;
+}
+
+.button {
+  display: inline-block;
+  padding: 0;
+  cursor: pointer;
+  line-height: 48px;
+  outline: none;
+  color: #bababa;
+  border: 1px solid #d6d6d6;
+  border-radius: 5px;
+  background: none;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.button.-primary {
+  color: #fff;
+  border-color: #0074c8;
+  background-color: #0074c8;
+}
+
+/*.login-buttons {
+  display: table;
+  width: 100%;
+}
+
+.button {
+  float: left;
+  font-weight: 400;
+}
+
+.button + .button {
+  float: right;
+}*/

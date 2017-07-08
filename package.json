@@ -1,0 +1,17 @@
+{
+  "name": "visual-regression",
+  "version": "1.0.0",
+  "description": "An example of visual regression tests with PhantomCSS",
+  "scripts": {
+    "start": "http-server",
+    "test": "casperjs test test.js"
+  },
+  "author": "Felipe Cesar <felipecesr@gmail.com> (http://felipecesar.com.br/)",
+  "license": "MIT",
+  "devDependencies": {
+    "casperjs": "^1.1.4",
+    "http-server": "^0.10.0",
+    "phantomcss": "^1.1.5",
+    "phantomjs-prebuilt": "^2.1.14"
+  }
+}
